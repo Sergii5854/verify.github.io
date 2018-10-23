@@ -1,20 +1,19 @@
-# TASK 1 
-    Написати набір функцій для переводу чисел між різними системами числення:
-        
-         decToHex(n) : String - з десяткової в шістнадцятирічну
-         decToBin(n) : String - з десяткової в двійкову
-         hexToBin(n) : String - з шістнадцятирічної в двійкову
-         binToHex(n) : String - з двійкової в шістнадцятирічну
-         
-    Вхідний параметр - тестове відображення числа.
-    Результат - текст
-    
-     
-    Приклад:
-    decToHex('12') => 'c'
-    hexToBin('7F') => '1111111'
+### Verify
+  Implement function verify(text) which verifies whether parentheses within text are
+  correctly nested. You need to consider three kinds: (), [], <> and only these kinds.
+  
+   Examples:
+      
+    verify("---(++++)----") -> 1
+    verify("") -> 1
+    verify("before ( middle []) after ") -> 1
+    verify(") (") -> 0
+    verify("<(   >)") -> 0
+    verify("(  [  <>  ()  ]  <>  )") -> 1
+    verify("   (      [)") -> 0
+
    
 
 
 
-### Link to: [view](https://sergii5854.github.io/BA-decTo.github.io/) .
+### Link to: [view](https://sergii5854.github.io/verify.github.io/) .
